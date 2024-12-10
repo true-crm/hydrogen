@@ -1,3 +1,5 @@
+require 'tsort'
+
 module Hydrogen
   class CallbackSet
     class Collection < Array
